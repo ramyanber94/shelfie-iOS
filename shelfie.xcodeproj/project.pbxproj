@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2554D94727EE499F00AE50C7 /* shelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554D94727EE499F00AE50C7 /* Shelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2554D94A27EE499F00AE50C7 /* shelfieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shelfieApp.swift; sourceTree = "<group>"; };
 		2554D94C27EE499F00AE50C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2554D94E27EE49A100AE50C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		2554D94827EE499F00AE50C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2554D94727EE499F00AE50C7 /* shelfie.app */,
+				2554D94727EE499F00AE50C7 /* Shelfie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = shelfie;
 			productName = shelfie;
-			productReference = 2554D94727EE499F00AE50C7 /* shelfie.app */;
+			productReference = 2554D94727EE499F00AE50C7 /* Shelfie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -288,8 +288,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = roll42.shelfie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-LFClaro-shelfie-iOS";
+				PRODUCT_NAME = Shelfie;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,8 +317,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = roll42.shelfie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-LFClaro-shelfie-iOS";
+				PRODUCT_NAME = Shelfie;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
