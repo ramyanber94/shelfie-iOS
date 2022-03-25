@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2554D94B27EE499F00AE50C7 /* shelfieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D94A27EE499F00AE50C7 /* shelfieApp.swift */; };
-		2554D94D27EE499F00AE50C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D94C27EE499F00AE50C7 /* ContentView.swift */; };
 		2554D94F27EE49A100AE50C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554D94E27EE49A100AE50C7 /* Assets.xcassets */; };
 		2554D95227EE49A100AE50C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554D95127EE49A100AE50C7 /* Preview Assets.xcassets */; };
 		2554D95427EE49A100AE50C7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D95327EE49A100AE50C7 /* Persistence.swift */; };
@@ -17,12 +16,14 @@
 		2554D96227EE517000AE50C7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D96127EE517000AE50C7 /* ButtonView.swift */; };
 		2554D96427EE518800AE50C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D96327EE518800AE50C7 /* LoginView.swift */; };
 		2554D96727EE519E00AE50C7 /* ScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554D96627EE519E00AE50C7 /* ScaleFactor.swift */; };
+		469FC05727EE52EE003E1D01 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC05627EE52EE003E1D01 /* LaunchView.swift */; };
+		469FC05B27EE5393003E1D01 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC05A27EE5393003E1D01 /* Routing.swift */; };
+		469FC05D27EE66BE003E1D01 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469FC05C27EE66BE003E1D01 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2554D94727EE499F00AE50C7 /* Shelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2554D94A27EE499F00AE50C7 /* shelfieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shelfieApp.swift; sourceTree = "<group>"; };
-		2554D94C27EE499F00AE50C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2554D94E27EE49A100AE50C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2554D95127EE49A100AE50C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2554D95327EE49A100AE50C7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -31,6 +32,9 @@
 		2554D96127EE517000AE50C7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2554D96327EE518800AE50C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2554D96627EE519E00AE50C7 /* ScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleFactor.swift; sourceTree = "<group>"; };
+		469FC05627EE52EE003E1D01 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		469FC05A27EE5393003E1D01 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		469FC05C27EE66BE003E1D01 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		2554D94927EE499F00AE50C7 /* shelfie */ = {
 			isa = PBXGroup;
 			children = (
+				469FC05927EE5377003E1D01 /* Service */,
 				2554D96527EE519100AE50C7 /* Models */,
 				2554D95F27EE508300AE50C7 /* Views */,
 				2554D94A27EE499F00AE50C7 /* shelfieApp.swift */,
@@ -86,9 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				2554D96027EE516500AE50C7 /* Components */,
-				2554D94C27EE499F00AE50C7 /* ContentView.swift */,
 				2554D95D27EE507C00AE50C7 /* WalkthroughView.swift */,
+				469FC05627EE52EE003E1D01 /* LaunchView.swift */,
 				2554D96327EE518800AE50C7 /* LoginView.swift */,
+				469FC05C27EE66BE003E1D01 /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +113,14 @@
 				2554D96627EE519E00AE50C7 /* ScaleFactor.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		469FC05927EE5377003E1D01 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				469FC05A27EE5393003E1D01 /* Routing.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,13 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469FC05B27EE5393003E1D01 /* Routing.swift in Sources */,
+				469FC05D27EE66BE003E1D01 /* RegisterView.swift in Sources */,
 				2554D95727EE49A100AE50C7 /* shelfie.xcdatamodeld in Sources */,
 				2554D96427EE518800AE50C7 /* LoginView.swift in Sources */,
 				2554D95427EE49A100AE50C7 /* Persistence.swift in Sources */,
 				2554D96727EE519E00AE50C7 /* ScaleFactor.swift in Sources */,
 				2554D96227EE517000AE50C7 /* ButtonView.swift in Sources */,
-				2554D94D27EE499F00AE50C7 /* ContentView.swift in Sources */,
 				2554D95E27EE507C00AE50C7 /* WalkthroughView.swift in Sources */,
+				469FC05727EE52EE003E1D01 /* LaunchView.swift in Sources */,
 				2554D94B27EE499F00AE50C7 /* shelfieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

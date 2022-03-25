@@ -11,12 +11,18 @@ let sf = ScaleFactor()
 
 @main
 struct shelfieApp: App {
-    let persistenceController = PersistenceController.shared
-
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
-    }
+    @State private var showLunchScreen: Bool = true
+       
+       var body: some Scene {
+           WindowGroup {
+               ZStack{
+                   LoginView().navigationBarHidden(true)
+                   ZStack{
+                       if showLunchScreen{
+                           LaunchView(showLaunch: $showLunchScreen).transition(.move(edge: .leading))
+                       }
+                   }.zIndex(2.0)
+               }
+           }
+       }
 }
