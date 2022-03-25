@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let sf = ScaleFactor()
+
 @main
 struct shelfieApp: App {
     let persistenceController = PersistenceController.shared
